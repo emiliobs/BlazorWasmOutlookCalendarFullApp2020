@@ -2,330 +2,402 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blazor Calendar </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blazor Calendar </title>
 
-  <!-- Main Style for the web app-->
-  <link rel="stylesheet" href="Assets/css/main.css">
-  <!-- bootstrap -->
+	<!-- Main Style for the web app-->
+	<link rel="stylesheet" href="Assets/css/main.css">
+	<!-- bootstrap -->
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <!-- Fluent UI Style -->
-  <link rel="stylesheet"
-    href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
+	<!-- Fluent UI Style -->
+	<link rel="stylesheet"
+		href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <div class="ms-BrandIcon--icon48  ms-BrandIcon--outlook" />
-      </div></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        Login Section
-      </span>
-    </div>
-  </nav>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<div class="ms-BrandIcon--icon48  ms-BrandIcon--outlook" />
+			</div></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+			aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+			</ul>
+			<span class="navbar-text">
+				Login Section
+			</span>
+		</div>
+	</nav>
 
-  <!-- Header -->
+	<!-- Header -->
 
-  <head>
-    <h3 class="ms-fontSize-42 ms-fontweight-regular">Welcome to Blazor Calendar</h3>
-    <p class="ms-fontSize-14 ms-fontweight-regular">Blazor Calendar allows you to manager all you events within your
-      Outlook Calendar.</p>
+	<head>
+		<h3 class="ms-fontSize-42 ms-fontweight-regular">Welcome to Blazor Calendar</h3>
+		<p class="ms-fontSize-14 ms-fontweight-regular">Blazor Calendar allows you to manager all you events within your
+			Outlook Calendar.</p>
 
-    <!-- NotAutheticated Users  -->
-    <p class="ms-fontSize-14 ms-fontweight-regular">Please Sign in with your Microsoft Account to get started..</p>
-    <a href="" class="microsoft-login-button hadoe-effect"><img src="Assets/images/microsft.png"> Sign in with
-      Microsoft.</a>
-  </head>
+		<!-- NotAutheticated Users  -->
+		<p class="ms-fontSize-14 ms-fontweight-regular">Please Sign in with your Microsoft Account to get started..</p>
+		<a href="" class="microsoft-login-button hadoe-effect"><img src="Assets/images/microsft.png"> Sign in with
+			Microsoft.</a>
+	</head>
 
-  <div class="row">
-    <!-- Calendar -->
-    <div class="col-sm-12 col-lg-9">
-      <table class="calendar-table">
-        <thead>
-          <tr>
-            <td>Sun</td>
-            <td>Mon</td>
-            <td>Tue</td>
-            <td>Wed</td>
-            <td>Thu</td>
-            <td>Fri</td>
-            <td>Sat</td>
-          </tr>
-        </thead>
-        <tbody>
-        
-          <tr>
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+	<div class="row">
+		<!-- Calendar -->
+		<div class="col-sm-12 col-md-12  col-lg-9">
+			<div class="calendar">
+				<div class="row">
+					<div class="col-sm-12 col-lg-2">
+						<select name="" id="" class="fluent-Input">
+							<option value="">2019</option>
+							<option value="">2019</option>
+							<option value="">2019</option>
+						</select>
+					</div>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+					<div class="col-sm-12 col-lg-2">
+						<select name="" id="" class="fluent-Input">
+							<option value="">January</option>
+							<option value="">February</option>
+							<option value="">March</option>
+							<option value="">April</option>
+							<option value="">May</option>
+							<option value="">june</option>
+							<option value="">July</option>
+							<option value="">August</option>
+							<option value="">September</option>
+							<option value="">Actober</option>
+							<option value="">November</option>
+							<option value="">Dicember</option>
+						</select>
+					</div>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+				</div>
+				<table class="calendar-table">
+					<thead>
+						<tr>
+							<td>Sun</td>
+							<td>Mon</td>
+							<td>Tue</td>
+							<td>Wed</td>
+							<td>Thu</td>
+							<td>Fri</td>
+							<td>Sat</td>
+						</tr>
+					</thead>
+					<tbody>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+						<tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
-            
-          </tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-          <tr>
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-                <div>
-                  <div class="day-event magenta">
-                    Watchin Microsft Build
-                  </div>
-                </div>
-                <div>                  
-                </div>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect current-day">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+						</tr>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-                <div class="day-event pink-red">
-                  Watchin Microsft Build
-                </div>
-              </div>
-            </td>
+						<tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+									<div>
+										<div class="day-event magenta">
+											Watchin Microsft Build
+										</div>
+									</div>
+									<div>
+									</div>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect selected-day">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-                <div class="day-event red-orange">
-                  Watchin Microsft Build
-                </div>
-              </div>
-            </td>
-            
-          </tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-          <tr>
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect current-day">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+									<div class="day-event pink-red">
+										Watchin Microsft Build
+									</div>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-                <div class="day-event yellow-green">
-                  Watchin Microsft Build
-                </div>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect selected-day">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+									<div class="day-event red-orange">
+										Watchin Microsft Build
+									</div>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+						</tr>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+						<tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
-            
-          </tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-          <tr>
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+									<div class="day-event yellow-green">
+										Watchin Microsft Build
+									</div>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day  shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-                <div class="day-event yellow">
-                  Watchin Microsft Build
-                </div>
-              </div>
-            </td>
+						</tr>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
-            
-          </tr>
+						<tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-          <tr>
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day  shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+									<div class="day-event yellow">
+										Watchin Microsft Build
+									</div>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-            <td>
-              <div class="day shadow-effect">
-                <h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
-              </div>
-            </td>
-            
-          </tr>
+						</tr>
 
-        </tbody>
-      </table>
-    </div>
+						<tr>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-    <!-- Day Manu -->
-    <div class="col-sm-12 col-lg-3">
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
 
-    </div>
-  </div>
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
+
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
+
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
+
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
+
+							<td>
+								<div class="day shadow-effect">
+									<h3 class="ms-fontSize-24 ms-fontweight-regular">01</h3>
+								</div>
+							</td>
+
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- Day Manu -->
+		<div class="col-sm-12 col-md-12 col-lg-3 ">
+			<!-- Day Event -->
+			<div class="ms-depth-16 card">
+				<div class="calendar-toolbar">
+					<button class="toolbar-button"> <i class="ms-Icon ms-Icon--AddEvent"></i></button>
+				</div>
+
+				<div class="card-content">
+					<input type="text" class="fluent-Input" placeholder="Event Subject">
+					<input type="time" class="fluent-Input" placeholder="Event Subject">
+					<input type="time" class="fluent-Input" placeholder="Event Subject">
+				</div>
+			</div>
+			<!-- Day Events List -->
+			<div class="ms-depth-16">
+				<div class="card-content">
+					<h3 class="ms-fontSize-22  ms-fontweight-regular">Thurday, 28 May 2020</h3>
+
+					<div class="event  shadow-effect magenta">
+						<h3 class="ms-fontSize-14 ms-fontweight-regular">6:00 PM to 8:00 PM</h3>
+						<p class="ms--fontSize-11 ms-fontweight-regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Illo quasi est, dolorum iure eveniet suscipit doloribus minus .</p>
+					</div>
+
+					<div class="event  shadow-effect  yellow-green">
+						<h3 class="ms-fontSize-14 ms-fontweight-regular">6:00 PM to 8:00 PM</h3>
+						<p class="ms--fontSize-11 ms-fontweight-regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Illo quasi est, dolorum iure eveniet suscipit doloribus minus .</p>
+					</div>
+
+					<div class="event  shadow-effect yellow">
+						<h3 class="ms-fontSize-14 ms-fontweight-regular">6:00 PM to 8:00 PM</h3>
+						<p class="ms--fontSize-11 ms-fontweight-regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Illo quasi est, dolorum iure eveniet suscipit doloribus minus .</p>
+					</div>
+
+					<div class="event  shadow-effect red-orange">
+						<h3 class="ms-fontSize-14 ms-fontweight-regular">6:00 PM to 8:00 PM</h3>
+						<p class="ms--fontSize-11 ms-fontweight-regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Illo quasi est, dolorum iure eveniet suscipit doloribus minus .</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 </body>
 
