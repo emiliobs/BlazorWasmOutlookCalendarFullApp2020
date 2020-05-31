@@ -1,0 +1,20 @@
+﻿@page "/"
+
+ <!-- Header -->
+    <header>
+        <h3 class="ms-fontSize-42 ms-fontWeight-regular">Welcome to Blazor Calendar</h3>
+        <p class="ms-fontSize-14 ms-fontWeight-regular">Blaozr Calendar allows you to manage all you events within your
+            Outlook Calendar</p>
+
+        <!-- NotAuthenticated Users-->
+        <AuthorizeView>
+            <NotAuthorized>
+                   <p class="ms-fontSize-14 ms-fontWeight-regular">Please Sign in with your Micorosft Account to get started</p>
+                    <a href="authentication/login" class="microsoft-login-button shadow-effect">
+										<img src="/images/microsft.png" alt=""> Sign in  with Microsoft</a>
+
+            </NotAuthorized>
+        </AuthorizeView>
+</header>
+
+<!-- Calendar Componet -->
