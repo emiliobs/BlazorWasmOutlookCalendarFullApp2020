@@ -77,6 +77,20 @@ using BlazorCalendar.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\_Imports.razor"
+using BlazorCalendar.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\_Imports.razor"
+using BlazorCalendar.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\Shared\LoginDisplay.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 

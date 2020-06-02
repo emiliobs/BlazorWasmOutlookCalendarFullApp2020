@@ -10,11 +10,33 @@
         <AuthorizeView>
             <NotAuthorized>
                    <p class="ms-fontSize-14 ms-fontWeight-regular">Please Sign in with your Micorosft Account to get started</p>
-                    <a href="authentication/login" class="microsoft-login-button shadow-effect">
-										<img src="/images/microsft.png" alt=""> Sign in  with Microsoft</a>
-
+                    <a href="authentication/login" class="microsoft-login-button shadow-effect"><img src="assets/images/microsoft.png" alt=""> Sign in
+                        with Microsoft</a>
             </NotAuthorized>
         </AuthorizeView>
 </header>
 
+
+ <div class="row">
+
+        <!-- Calendar -->
+        <div class="col-sm-12 col-md-12 col-lg-9">
+            <Calendar>
+                <DayTemplate Context="day">
+                    @{
+                        string currentDayClass = day.Date == DateTime.Now.Date ? "current-day" : "";
+                       
+                    }
+                    @if(!day.IsEmpty)
+                    {
+                        <div class="day shadow-effect @currentDayClass">
+                            <h3 class="ms-fontSize-24 ms-fontWeight-regular">@day.DayNumber</h3>
+								</div>
+
+				}
+				
+			</DayTemplate>
+	</Calendar>
+</div>
+</div>
 <!-- Calendar Componet -->

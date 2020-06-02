@@ -79,6 +79,20 @@ using BlazorCalendar.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\_Imports.razor"
+using BlazorCalendar.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\_Imports.razor"
+using BlazorCalendar.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {

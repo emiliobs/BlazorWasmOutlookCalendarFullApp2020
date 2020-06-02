@@ -83,6 +83,20 @@ using BlazorCalendar.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\_Imports.razor"
+using BlazorCalendar.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Projects3\BlazorWasmOutlookCalendarFullApp2020\BlazorCalendar\_Imports.razor"
+using BlazorCalendar.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
