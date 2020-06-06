@@ -1559,33 +1559,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emilio\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/emilio/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\BlazorCalendar.csproj",
+      "projectUniqueName": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/BlazorCalendar.csproj",
       "projectName": "BlazorCalendar",
-      "projectPath": "C:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\BlazorCalendar.csproj",
-      "packagesPath": "C:\\Users\\Emilio\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\obj\\",
+      "projectPath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/BlazorCalendar.csproj",
+      "packagesPath": "/home/emilio/.nuget/packages/",
+      "outputPath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Emilio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/emilio/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1640,7 +1631,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.4.20258.7\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
   }

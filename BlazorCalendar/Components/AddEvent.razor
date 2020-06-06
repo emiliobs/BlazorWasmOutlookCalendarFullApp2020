@@ -1,0 +1,34 @@
+
+<div  class="ms-depth-16 card">
+   <EditForm Model="" OnValidSubmit="">
+
+  
+  <div class="calendar-toobar">
+  <button class="toolbar-button"></button>
+  </div>
+  <div class="card-content">
+    <h3 class="ms-fontsize-24 ms-fontWeight-regular">@SelectedDay.Date.ToString("D")</h3>
+<input type="text" class="fluent-input" placeholder="Event subject">    
+<input type="time" class="fluent-input" placeholder="Event subject">    
+<input type="time" class="fluent-input" placeholder="Event subject">    
+</div>
+  </EditForm>
+</div>
+
+@code
+{
+  [Parameter]
+  public CalendarDay SelectedDay { get; set; }
+  private CalendarEvent model = new CalendarEvent();
+
+  private void addEventToSelectedDay()
+  {
+
+    //Convert the tme to the a new date date within the selected day.
+    model.StartDate = new DateTime(SelectedDay.Date.Year, SelectedDay.Date.Month, SelectedDay.Date.Day, model.StartDate.Hour, model.StartDate.Minute, 0);
+
+    model.EndDate = new DateTime(SelectedDay.Date.Year, SelectedDay.Date.Month, SelectedDay.Date.Day, model.EndDate.Hour, model.EndDate.Minute, 0);
+
+  }
+
+}

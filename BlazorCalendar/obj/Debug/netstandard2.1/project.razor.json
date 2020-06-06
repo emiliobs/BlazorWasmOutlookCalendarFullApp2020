@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\BlazorCalendar.csproj",
+  "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/BlazorCalendar.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -7,6 +7,279 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorCalendar.Components.AddEvent",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddEvent",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedDay",
+            "TypeName": "BlazorCalendar.Models.CalendarDay",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorCalendar.Components.AddEvent"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorCalendar.Components.AddEvent",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorCalendar.Components.AddEvent",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedDay",
+            "TypeName": "BlazorCalendar.Models.CalendarDay",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorCalendar.Components.AddEvent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorCalendar.Components.Calendar",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Calendar",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "DayTemplate",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<BlazorCalendar.Models.CalendarDay>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "DayTemplate",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorCalendar.Components.Calendar"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorCalendar.Components.Calendar",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorCalendar.Components.Calendar",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "DayTemplate",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<BlazorCalendar.Models.CalendarDay>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "DayTemplate",
+              "Components.ChildContent": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorCalendar.Components.Calendar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorCalendar.Components.Calendar.DayTemplate",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DayTemplate",
+            "ParentTag": "Calendar",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for the 'DayTemplate' child content expression.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorCalendar.Components.Calendar.DayTemplate",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorCalendar.Components.Calendar.DayTemplate",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DayTemplate",
+            "ParentTag": "BlazorCalendar.Components.Calendar",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for the 'DayTemplate' child content expression.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorCalendar.Components.Calendar.DayTemplate",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
       {
         "Kind": "Components.Component",
         "Name": "BlazorCalendar.App",
@@ -637,200 +910,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorCalendar.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorCalendar.Components.Calendar",
-        "AssemblyName": "BlazorCalendar",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Calendar",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "DayTemplate",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<BlazorCalendar.Models.CalendarDay>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "DayTemplate",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "Specifies the parameter name for all child content expressions.",
-            "Diagnostics": [],
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorCalendar.Components.Calendar"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "BlazorCalendar.Components.Calendar",
-        "AssemblyName": "BlazorCalendar",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorCalendar.Components.Calendar",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "DayTemplate",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<BlazorCalendar.Models.CalendarDay>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "DayTemplate",
-              "Components.ChildContent": "True"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "Specifies the parameter name for all child content expressions.",
-            "Diagnostics": [],
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorCalendar.Components.Calendar",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorCalendar.Components.Calendar.DayTemplate",
-        "AssemblyName": "BlazorCalendar",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DayTemplate",
-            "ParentTag": "Calendar",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "Specifies the parameter name for the 'DayTemplate' child content expression.",
-            "Diagnostics": [],
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "BlazorCalendar.Components.Calendar.DayTemplate",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "Kind": "Components.ChildContent",
-        "Name": "BlazorCalendar.Components.Calendar.DayTemplate",
-        "AssemblyName": "BlazorCalendar",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DayTemplate",
-            "ParentTag": "BlazorCalendar.Components.Calendar",
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.ChildContent",
-            "Name": "Context",
-            "TypeName": "System.String",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": "Specifies the parameter name for the 'DayTemplate' child content expression.",
-            "Diagnostics": [],
-            "Metadata": {
-              "Components.ChildContentParameterName": "True",
-              "Common.PropertyName": "Context"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "BlazorCalendar.Components.Calendar.DayTemplate",
-          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -20007,63 +20086,68 @@
   "RootNamespace": "BlazorCalendar",
   "Documents": [
     {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Pages\\Authentication.razor",
-      "TargetPath": "Pages\\Authentication.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Shared\\LoginDisplay.razor",
-      "TargetPath": "Shared\\LoginDisplay.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Shared\\RedirectToLogin.razor",
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/RedirectToLogin.razor",
       "TargetPath": "Shared\\RedirectToLogin.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Shared\\MainLayout.razor",
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/LoginDisplay.razor",
+      "TargetPath": "Shared\\LoginDisplay.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/Authentication.razor",
+      "TargetPath": "Pages\\Authentication.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Pages\\Counter.razor",
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Components/AddEvent.razor",
+      "TargetPath": "Components\\AddEvent.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020\\BlazorCalendar\\Components\\Calendar.razor",
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Components/Calendar.razor",
       "TargetPath": "Components\\Calendar.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     }
   ],
