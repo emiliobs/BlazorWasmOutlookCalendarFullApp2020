@@ -26,11 +26,11 @@
                 <DayTemplate Context="day">
                     @{
                         string currentDayClass = day.Date == DateTime.Now.Date ? "current-day" : "";
-                       
+                        string selectedDayClass = day == selectedDay ? "selected-day" : " ";
                     }
                     @if(!day.IsEmpty)
                     {
-                        <div class="day shadow-effect @currentDayClass">
+                        <div class="day shadow-effect @currentDayClass @selectedDayClass"   @onclick="() => selectedDay = day">
                             <h3 class="ms-fontSize-24 ms-fontWeight-regular">@day.DayNumber</h3>
 								</div>
 
@@ -39,5 +39,18 @@
 			</DayTemplate>
 	</Calendar>
 </div>
+<!--  Day Menu -->
+<div class="col-sm-12 col-md-12 col-lg-3">
+<AddEvent  SelectedDay= "selectedDay"  />
 </div>
+</div>
+
+@code
+{
+    private CalendarDay selectedDay = new CalendarDay
+		{
+        Date = DateTime.Today
+
+		};  
+}
 <!-- Calendar Componet -->

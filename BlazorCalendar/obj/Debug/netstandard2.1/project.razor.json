@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/BlazorCalendar.csproj",
+  "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\BlazorCalendar.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -9,80 +9,50 @@
     "TagHelpers": [
       {
         "Kind": "Components.Component",
-        "Name": "BlazorCalendar.Components.AddEvent",
+        "Name": "BlazorCalendar.App",
         "AssemblyName": "BlazorCalendar",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AddEvent",
+            "TagName": "App",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "SelectedDay",
-            "TypeName": "BlazorCalendar.Models.CalendarDay",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "SelectedDay"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
+        "BoundAttributes": [],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorCalendar.Components.AddEvent"
+          "Common.TypeName": "BlazorCalendar.App"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorCalendar.Components.AddEvent",
+        "Name": "BlazorCalendar.App",
         "AssemblyName": "BlazorCalendar",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorCalendar.Components.AddEvent",
+            "TagName": "BlazorCalendar.App",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "SelectedDay",
-            "TypeName": "BlazorCalendar.Models.CalendarDay",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "SelectedDay"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
+        "BoundAttributes": [],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorCalendar.Components.AddEvent",
+          "Common.TypeName": "BlazorCalendar.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -282,50 +252,80 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorCalendar.App",
+        "Name": "BlazorCalendar.Components.AddEvent",
         "AssemblyName": "BlazorCalendar",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App",
+            "TagName": "AddEvent",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedDay",
+            "TypeName": "BlazorCalendar.Models.CalendarDay",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorCalendar.App"
+          "Common.TypeName": "BlazorCalendar.Components.AddEvent"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "BlazorCalendar.App",
+        "Name": "BlazorCalendar.Components.AddEvent",
         "AssemblyName": "BlazorCalendar",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorCalendar.App",
+            "TagName": "BlazorCalendar.Components.AddEvent",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
             "Diagnostics": []
           }
         ],
-        "BoundAttributes": [],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedDay",
+            "TypeName": "BlazorCalendar.Models.CalendarDay",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
         "AllowedChildTags": [],
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorCalendar.App",
+          "Common.TypeName": "BlazorCalendar.Components.AddEvent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -20086,68 +20086,68 @@
   "RootNamespace": "BlazorCalendar",
   "Documents": [
     {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/RedirectToLogin.razor",
-      "TargetPath": "Shared\\RedirectToLogin.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/LoginDisplay.razor",
-      "TargetPath": "Shared\\LoginDisplay.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/Authentication.razor",
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Pages\\Authentication.razor",
       "TargetPath": "Pages\\Authentication.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Components/AddEvent.razor",
-      "TargetPath": "Components\\AddEvent.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Components/Calendar.razor",
-      "TargetPath": "Components\\Calendar.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Shared/SurveyPrompt.razor",
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/emilio/Projects/BlazorCalendarDesing2020/BlazorCalendar/Pages/FetchData.razor",
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Shared\\LoginDisplay.razor",
+      "TargetPath": "Shared\\LoginDisplay.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Components\\AddEvent.razor",
+      "TargetPath": "Components\\AddEvent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Shared\\RedirectToLogin.razor",
+      "TargetPath": "Shared\\RedirectToLogin.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Components\\Calendar.razor",
+      "TargetPath": "Components\\Calendar.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     }
   ],
