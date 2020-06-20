@@ -68,5 +68,13 @@
         Date = DateTime.Today
 
 		};  
+
+		protected	override void OnInitialized()
+		{
+			AddEvent.OnEventAdded += () => 
+			{
+				  StateHasChanged();
+			};
+		}
 }
 <!-- Calendar Componet -->

@@ -1201,6 +1201,6 @@ C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\net
 C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\staticwebassets\BlazorCalendar.StaticWebAssets.xml
 C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\RazorDeclaration\Components\EventsList.razor.g.cs
 C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\Razor\Components\EventsList.razor.g.cs
-C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\integrity\c7RWcyeT03-VtaLrPvh5IhT5cl8zLoEqmZOrLiwJlhk=.hash
-C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\integrity\qGRr23e-5kGDFVgVbJnnbQ_eqTcwneh5Z2auYRTiU2A=.hash
-C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\integrity\FqRWhz7Pfb64IZF7xs8E7ObV1cxtQScShcP8T9HrgOk=.hash
+C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\integrity\RwiJoK2h8Yhw1FBjdPg2ygFJskFJqphUtsONu_T8COw=.hash
+C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\integrity\6r7pg0eQPggRV4ieN7iZWLeLe0fE1nLFCtHmAzEB6DE=.hash
+C:\Projects3\BlazorWasmOutlookCalendarFullApp2020-1\BlazorCalendar\obj\Debug\netstandard2.1\integrity\6uRNkB-0QLtGa9O0uVaFXSso6gKNhatoOryoBJC9WUo=.hash
