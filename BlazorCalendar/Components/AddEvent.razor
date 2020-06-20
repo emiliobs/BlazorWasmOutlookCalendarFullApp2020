@@ -29,12 +29,18 @@
 		model.EndDate = new DateTime(SelectedDay.Date.Year, SelectedDay.Date.Month, SelectedDay.Date.Day, model.EndDate.Hour,
 																												model.EndDate.Minute, 0);
 
-		if (SelectedDay.Events  != null)
-		{
+		if (SelectedDay.Events  == null)		
 			SelectedDay.Events = new List<CalendarEvent>();
-	    SelectedDay.Events.Add(model);
-			 Console.WriteLine ($"Total Events in Day { SelectedDay.Events.Count } | {model.Subject } | {  model.StartDate } | {model.EndDate}");
 
+	    SelectedDay.Events.Add(new CalendarEvent
+			{
+					Subject = model.Subject,
+					StartDate = model.StartDate,
+					EndDate = model.EndDate
+			});
+			
+			 Console.WriteLine ($"Total Events in Day { SelectedDay.Events.Count } | {model.Subject } | {  model.StartDate } | {model.EndDate}");
+  model = new CalendarEvent();
 			 //TODO: Push the event to the API
 		}
 

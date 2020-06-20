@@ -8,7 +8,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "BlazorCalendar.dll": "sha256-wnTNoZwvBd40CoZzMftCNWFP5IFDzFRgXDRIKGMg+r8=",
+      "BlazorCalendar.dll": "sha256-c7RWcyeT03\/VtaLrPvh5IhT5cl8zLoEqmZOrLiwJlhk=",
       "System.Net.Http.Json.dll": "sha256-+IansbyiPIbBxBPwqKb6GLCNiqhuqeIc5S8yC5s7yF4=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-uaG3AW80GeXVlZrMLb3Q0VZ6jBkzXqzaUAgKgtZbStA=",
@@ -68,7 +68,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-u5WlE+3+OPkr0mlHMJ6pS5OWVuHC3rk2HWyyA3R+xVY="
     },
     "pdb": {
-      "BlazorCalendar.pdb": "sha256-A7\/I5cMM0VSIYi2MsMxaxtoTNu8g428qDByaQ3KEdO4="
+      "BlazorCalendar.pdb": "sha256-qGRr23e\/5kGDFVgVbJnnbQ+eqTcwneh5Z2auYRTiU2A="
     },
     "runtime": {
       "dotnet.3.2.0-rc1.20222.2.js": "sha256-iZCHkFXJWYNxCUFwhj+4oqR4fkEJc5YGjfTTvdIuX84=",

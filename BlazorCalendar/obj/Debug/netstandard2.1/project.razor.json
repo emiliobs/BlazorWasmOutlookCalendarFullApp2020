@@ -331,6 +331,85 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "BlazorCalendar.Components.EventsList",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EventsList",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedDay",
+            "TypeName": "BlazorCalendar.Models.CalendarDay",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorCalendar.Components.EventsList"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "BlazorCalendar.Components.EventsList",
+        "AssemblyName": "BlazorCalendar",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorCalendar.Components.EventsList",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedDay",
+            "TypeName": "BlazorCalendar.Models.CalendarDay",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedDay"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorCalendar.Components.EventsList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "BlazorCalendar.Pages.Authentication",
         "AssemblyName": "BlazorCalendar",
         "Documentation": null,
@@ -20108,6 +20187,11 @@
     {
       "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Components\\AddEvent.razor",
       "TargetPath": "Components\\AddEvent.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\Components\\EventsList.razor",
+      "TargetPath": "Components\\EventsList.razor",
       "FileKind": "component"
     },
     {

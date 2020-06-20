@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wnTNoZwvBd40CoZzMftCNWFP5IFDzFRgXDRIKGMg_r8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\c7RWcyeT03-VtaLrPvh5IhT5cl8zLoEqmZOrLiwJlhk=.hash",
       "Source": "C:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorCalendar.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorCalendar.dll.br"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\A7-I5cMM0VSIYi2MsMxaxtoTNu8g428qDByaQ3KEdO4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qGRr23e-5kGDFVgVbJnnbQ_eqTcwneh5Z2auYRTiU2A=.hash",
       "Source": "C:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorCalendar.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorCalendar.pdb.br"
     },
@@ -316,7 +316,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4GqnE4W4kUo0QzvkMgbslkLcUGvDxsFiZb05HhipNEY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FqRWhz7Pfb64IZF7xs8E7ObV1cxtQScShcP8T9HrgOk=.hash",
       "Source": "C:\\Projects3\\BlazorWasmOutlookCalendarFullApp2020-1\\BlazorCalendar\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
